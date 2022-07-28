@@ -1,0 +1,99 @@
+h1 {
+  background-color: black;
+  color: white !important;
+  padding: 10px;
+}
+
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h2 {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.form-container {
+  border: 1px solid black;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  padding: 5px;
+}
+
+input {
+  padding: 5px;
+}
+
+.form-input {
+  margin: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-container {
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin: 10px;
+}
+
+.recipe-card {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.recipe-name {
+  font-weight: bold;
+}
+
+.recipe-content {
+  margin: 10px;
+  padding: 5px;
+}
+
+.calory-card {
+  border: 1px solid black;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.anchor-container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: black !important;
+  color: white !important;
+  padding: 10px 40px;
+  text-align: center;
+}

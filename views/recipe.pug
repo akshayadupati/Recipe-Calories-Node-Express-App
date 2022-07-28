@@ -1,0 +1,20 @@
+extends layout 
+
+block layout-content 
+    div.recipe-container
+        each recipe in recipeList
+            div.recipe-card 
+                div.recipe-content  
+                    h3 #{recipe.title}
+                div.recipe-content
+                    span.recipe-name Ingredients :  
+                    span #{recipe.ingredients}
+                div.recipe-content
+                    span.recipe-name Servings :  
+                    span #{recipe.servings}
+                div.recipe-content
+                    span.recipe-name Instructions :  
+                    span #{recipe.instructions}
+                form(action="/calories",method="POST",class="button-container")
+                    input(type="hidden", name="title", value=recipe.title)
+                    button(type="submit") Check calories

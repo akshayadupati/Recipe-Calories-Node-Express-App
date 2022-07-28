@@ -1,0 +1,14 @@
+extends layout 
+
+block layout-content 
+        div.container 
+            h2 Are you tired of finding new recipes ? Type in the ingredient below and find your favorite recipe
+            form(method="post", action="/ingredient",class="form-container")
+                div.form-input 
+                    label(for="ingredient") Type in the ingredient: 
+                    input(type="text", id="ingredient", name="ingredient")
+                div.form-input 
+                    button(type="submit") Submit
+
+                     
+                

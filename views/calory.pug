@@ -1,0 +1,42 @@
+extends layout 
+
+block layout-content 
+    h3 Calory :
+    div.recipe-container
+        each calory in caloryList
+            div.calory-card
+                div
+                    span.recipe-name Name :  
+                    span #{calory.name}
+                div
+                    span.recipe-name Calories :  
+                    span #{calory.calories}
+                div
+                    span.recipe-name Fat (in g) :  
+                    span #{calory.fat_total_g}
+                div
+                    span.recipe-name Fat Saturated (in g) :  
+                    span #{calory.fat_saturated_g}
+                div
+                    span.recipe-name Protein (in g) :  
+                    span #{calory.protein_g}
+                div
+                    span.recipe-name Sodium (in mg) :  
+                    span #{calory.sodium_mg}
+                div
+                    span.recipe-name Potassium (in mg) :  
+                    span #{calory.potassium_mg}
+                div
+                    span.recipe-name Cholestrol (in mg) :  
+                    span #{calory.cholesterol_mg}
+                div
+                    span.recipe-name Carbohydrates (in g) :  
+                    span #{calory.carbohydrates_total_g}
+                div
+                    span.recipe-name Fiber (in g) :  
+                    span #{calory.fiber_g}
+                div
+                    span.recipe-name Sugar (in g) :  
+                    span #{calory.sugar_g}
+    div.anchor-container    
+        a(href="/recipe") Back
