@@ -4,7 +4,8 @@
   "description": "Node project that allows us to see recipes based on ingredients typed and upon clicking the calories option , they can view the calories associated with the recipe",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node index.js"
   },
   "author": "Akshaya Dupati",
   "license": "ISC",
