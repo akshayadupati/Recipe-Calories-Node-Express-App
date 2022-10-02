@@ -1,25 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+body {
+  height: 100vh;
+  padding: 0;
+  background-color: #AFA8BA!important;
+  box-sizing: border-box;
+  margin: 0 !important;
+}
+
+.container-fluid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.text{
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
+  color: #fff;
+  -webkit-animation: h1 8s infinite; 
+  animation: h1 8s infinite;
+}
+
+@-webkit-keyframes h1 {
+  0%   {text-shadow: 0 0 3px #000; color: #DCEEF5;}
+  25%  {text-shadow: 0 0 12px #000;}
+  50%  {text-shadow: 0 0 20px #000; color: #4A4453;}
+  75%  {text-shadow: 0 0 12px #000;}
+  100% {text-shadow: 0 0 3px #000; color: #DCEEF5;}
+}
+
+@keyframes h1 {
+  0%   {text-shadow: 0 0 3px #000; color: #DCEEF5;}
+  25%  {text-shadow: 0 0 12px #000;}
+  50%  {text-shadow: 0 0 20px #000; color: #4A4453;}
+  75%  {text-shadow: 0 0 12px #000;}
+  100% {text-shadow: 0 0 3px #000; color: #DCEEF5;}
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.center {
+  text-align: center;
+}
+
 h1 {
-  background-color: black;
-  color: white !important;
   padding: 10px;
 }
 
-.container {
-  margin: 0 !important;
-  padding: 0 !important;
+h2 {
+  padding: 15px;
 }
 
-h2 {
-  margin: 0 auto;
-  padding: 15px;
-  text-align: center;
+main {
+  margin-top: 30px;
 }
 
 .form-container {
   border: 1px solid black;
-  padding: 10px;
-  width: 80%;
-  margin: 0 auto;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  margin: 10px auto;
   text-align: center;
 }
 
@@ -36,11 +82,12 @@ input {
 }
 
 button {
-  padding: 5px 10px;
+  padding: 10px 20px;
   border: transparent;
   border-radius: 5px;
   background-color: black;
   color: white;
+  margin: 10px!important;
 }
 
 .button-container {
@@ -88,6 +135,8 @@ h3 {
 .anchor-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 a {
